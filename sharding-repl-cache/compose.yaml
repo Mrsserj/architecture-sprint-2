@@ -206,7 +206,7 @@ services:
       [
         "mongos",
         "--configdb", 
-        "config_server/configSrv:27017",
+        "config_server/configSrv:27016",
         "--bind_ip_all",
         "--port",
         "27020"
